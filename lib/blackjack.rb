@@ -60,7 +60,7 @@ def runner
   # code runner here
   welcome()
   initial_round()
-  hit?()
+  hit?(card_total)
   display_card_total(card_total)
 end
     
